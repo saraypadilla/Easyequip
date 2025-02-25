@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Easyequip</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<!--Inicio Barra de navegacion-->
+    <nav class="navbar navbar-expand-md navbar-light ">  
+        <div id="Contenedor_nav" class="container-fluid">
+             <a href="inicio.html" class="navbar-brand ">Easyequip</a>
+             <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#Menu"> 
+                <span class="navbar-toggler-icon"></span>
+            </button> 
+            
+            <div id="Menu" class="collapse navbar-collapse">
+                <ul class="navbar-nav  ms-3">
+                    <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Información</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Equipos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Soporte técnico</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+                    <li class="nav-item"><form navbar>
+                        <input class="buscar" type="search" placeholder="Buscar">
+                    </form>
+                    </li>
+                </ul>
+            </div>
+        </div>  
+    </nav>
+<!--Fin Barra de navegacion-->
+
+<!--Inicio contenido -->
+<main class="container-fluid">
+    <section class="row">
+<!--Galeria-->
+        <section class="col-6  ms-3">
+            <div class="auriculares d-flex justify-content-center">
+                <img src="imagenes/audifonos.png" style="transform: rotate(2deg);">
+            </div>
+            <div class="info  p-3"> <p style="font-size: 30px;"><p>¡Bienvenido a nuestra plataforma de Préstamo de Equipos Tecnológicos para Instructores! </p>
+                <p>Aquí puedes encontrar una amplia gama de dispositivos y herramientas tecnológicas para apoyar tus actividades educativas.  
+                Nuestro objetivo es facilitar el acceso a tecnología avanzada para mejorar la calidad de la enseñanza</p>
+            </div>
+         </section>
+<!--Fin galeria-->
+
+<!--Inicio de la seccion de usuarios-->
+    <section class="col-5  ms-3">
+        <div class="Titulo  p-3"><p>Solicitud de productos</p></div> <!--Titulo-->
+            <div class="container mb-10">
+                <div class="row">
+                    <div id="instructor" class="col-12 col-md-5 m-sm-2 custom-column">
+                        <div class="instructor_foto"> </div>
+                        <a class="btn btn-instructor" href="/login_instructor.html">Instructor</a>
+                    </div>
+                     <div id="administrador" class="col-12 col-md-5 ms-5 custom-column">
+                         <div class="administrador_foto"></div>
+                         <a class="btn btn-administrador" href="Login_administrador.html">Administrador</a>
+                        </div>
+                    </div>
+                </div>
+    </section>
+</main>
+<!--Fin contenido -->   
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
